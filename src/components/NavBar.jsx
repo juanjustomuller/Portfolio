@@ -113,7 +113,7 @@ const NavBar = () => {
 
                     <li className='w-[160px] h-[60] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                         <a className='flex justify-between items-center w-full text-gray-300'
-                            href="./CV Juan Justo.pdf" download={''}>
+                            href="./CV - 2024.pdf" download={''}>
                             Cv <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>

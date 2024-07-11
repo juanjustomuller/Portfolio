@@ -2,9 +2,9 @@ import React from 'react'
 import naturalFarma from '../assets/projects/naturalFarma.png';
 import pokeApi from '../assets/projects/pokeApi.png';
 import disneyClone from '../assets/projects/disneyClone.png';
-import eShop from '../assets/projects/e-Shop.png';
+import resultadosEnVivo from '../assets/projects/resultados-en-vivo.png';
 import auricularesShop from '../assets/projects/auricularesShop.png';
-import toDo from '../assets/projects/toDo.png';
+import toDo from '../assets/projects/listadetareas.png';
 
 export const Work = () => {
     return (
@@ -62,7 +62,7 @@ export const Work = () => {
 
                     {/* Grid Item 3 */}
                     <div
-                        style={{ backgroundImage: `url(${disneyClone})` }}
+                        style={{ backgroundImage: `url(${resultadosEnVivo})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
@@ -71,10 +71,10 @@ export const Work = () => {
                                 React JS Application
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg cursor-not-allowed' disabled>Demo</button>
+                                <a href="https://resultados-en-vivo-futbol.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/juanjustomuller/DisneyClone" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/juanjustomuller/Resultados-en-vivo-futbol" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -104,7 +104,7 @@ export const Work = () => {
 
                     {/* Grid Item 5 */}
                     <div
-                        style={{ backgroundImage: `url(${eShop})` }}
+                        style={{ backgroundImage: `url(${disneyClone})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
@@ -116,7 +116,7 @@ export const Work = () => {
                                 <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg cursor-not-allowed' disabled>Demo</button>
                                 </a>
-                                <a href="https://github.com/juanjustomuller/e-shop-landing" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/juanjustomuller/DisneyClone" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
@@ -134,10 +134,10 @@ export const Work = () => {
                                 React JS Application
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg cursor-not-allowed' disabled>Demo</button>
+                                <a href="https://lista-de-tareas-flax.vercel.app/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/juanjustomuller/Lista-de-Tareas" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/juanjustomuller/listaDeTareas" target="_blank" rel="noopener noreferrer">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                                 </a>
                             </div>
