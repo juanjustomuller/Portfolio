@@ -3,7 +3,7 @@ import naturalFarma from '../assets/projects/naturalFarma.png';
 import pokeApi from '../assets/projects/pokeApi.png';
 import disneyClone from '../assets/projects/disneyClone.png';
 import resultadosEnVivo from '../assets/projects/resultados-en-vivo.png';
-import auricularesShop from '../assets/projects/auricularesShop.png';
+import suarezFigari from '../assets/projects/suarez-fagari.png';
 import toDo from '../assets/projects/listadetareas.png';
 
 export const Work = () => {
@@ -83,20 +83,20 @@ export const Work = () => {
 
                     {/* Grid Item 4 */}
                     <div
-                        style={{ backgroundImage: `url(${auricularesShop})` }}
+                        style={{ backgroundImage: `url(${suarezFigari})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                React JS Application
+                                Wordpress Application
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg cursor-not-allowed' disabled>Demo</button>
+                                <a href="https://suarez-figari.com/" target="_blank" rel="noopener noreferrer">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="https://github.com/juanjustomuller/shop-practice" target="_blank" rel="noopener noreferrer">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <a href="#">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg cursor-not-allowed' disabled>Code</button>
                                 </a>
                             </div>
                         </div>
